@@ -1,8 +1,7 @@
 const OpenAI = require('openai');
-const config = require('../config.json');
 const { prompt } = require('./prompt');
 
-const openai = new OpenAI({ apiKey: config.OPENAI_API_KEY });
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 const getAnswerFromChatGPT = async question => {
   try {
@@ -10,7 +9,7 @@ const getAnswerFromChatGPT = async question => {
       messages: [
         {
           role: 'system',
-          content: 'You are a helpful assistant.',
+          content: 'You are a dungeons and dragons librarian with all the information of every book created for dnd.',
         },
         {
           role: 'user',
@@ -18,7 +17,7 @@ const getAnswerFromChatGPT = async question => {
         },
       ],
       model: 'gpt-4',
-      max_tokens: 1000, // You can adjust this value based on your needs
+      max_tokens: 4000, // You can adjust this value based on your needs
     });
 
     if (
