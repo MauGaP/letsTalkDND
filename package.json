@@ -1,0 +1,22 @@
+{
+  "name": "letstalkdnd",
+  "version": "0.0.1",
+  "description": "A chat gpt bot that answers questions about dnd lore for discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chatgpt",
+    "dungeons-and-dragons",
+    "dnd",
+    "chatbot",
+    "discord"
+  ],
+  "author": "MauGaP",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "openai": "^4.12.4"
+  }
+}
