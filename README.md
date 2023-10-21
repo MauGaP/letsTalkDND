@@ -1,6 +1,6 @@
 # letsTalkDND
 
-![alt text](https://github.com/maugap/lestTalkDND/blob/main/librarian.png?raw=true)
+![alt text](https://github.com/MauGaP/letsTalkDND/blob/main/librarian.png?raw=true)
 
 ## Description
 
