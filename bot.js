@@ -5,17 +5,17 @@ const { handle } = require('./commands/handleCommands');
 const { Client, GatewayIntentBits } = Discord;
 
 const client = new Client({
-    intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages]
+  intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages],
 });
 
 client.once('ready', () => {
-    console.log('Bot is online!');
+  console.log('Bot is online!');
 });
 
 client.on('interactionCreate', async interaction => {
-    if (interaction.isCommand()) {
-        await handle(interaction);
-    }
+  if (interaction.isCommand()) {
+    await handle(interaction);
+  }
 });
 
 client.login(config.DISCORD_BOT_TOKEN);
