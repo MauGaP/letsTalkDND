@@ -1,6 +1,5 @@
-const Discord = require("discord.js");
-const config = require("./config.json");
-const { handle } = require("./commands/handleCommands");
+const Discord = require('discord.js');
+const { handle } = require('./commands/handleCommands');
 const { Client, GatewayIntentBits } = Discord;
 
 const client = new Client({
@@ -17,4 +16,4 @@ client.on('interactionCreate', async interaction => {
   }
 });
 
-client.login(config.DISCORD_BOT_TOKEN);
+client.login(process.env.DISCORD_BOT_TOKEN);
