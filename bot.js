@@ -1,7 +1,6 @@
-const Discord = require('discord.js');
-const config = require('./config.json');
-const { handle } = require('./commands/handleCommands');
-
+const Discord = require("discord.js");
+const config = require("./config.json");
+const { handle } = require("./commands/handleCommands");
 const { Client, GatewayIntentBits } = Discord;
 
 const client = new Client({
