@@ -21,5 +21,13 @@ you need to create 2 environment variables:
 
 ask @maugap for the keys
 
+### Preconditions
+
+Install node.js
+run `npm install` to install all the dependencies
+
 ### Deployment
-After the env variables are created, use the `run.ps1` command.
+
+if you want to host the bot on your local environment just run `node bot.js`
+
+if you want to host the bot running inside a docker container run the `run.ps1` script.
