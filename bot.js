@@ -7,11 +7,11 @@ const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages],
 });
 
-client.once("ready", () => {
-  console.log("Bot is online!");
+client.once('ready', () => {
+  console.log('Bot is online!');
 });
 
-client.on("interactionCreate", async (interaction) => {
+client.on('interactionCreate', async interaction => {
   if (interaction.isCommand()) {
     await handle(interaction);
   }
