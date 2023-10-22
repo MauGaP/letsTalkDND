@@ -19,11 +19,12 @@ you need to create 2 environment variables:
  
 `OPENAI_API_KEY`
 
-ask @maugap for the keys
+ask @MauGaP for the keys
 
 ### Preconditions
 
 Install node.js
+
 run `npm install` to install all the dependencies
 
 ### Deployment
