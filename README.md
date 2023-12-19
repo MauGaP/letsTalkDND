@@ -1,4 +1,6 @@
 # letsTalkDND
+🐉 LetsTalkDND: Your AI-Powered Dungeon Master's Assistant 🎲
+Unleash the power of AI in your Dungeons & Dragons adventures! This innovative Discord chatbot, powered by ChatGPT, is your go-to source for lore, rules, items, and spells. Enhance your gaming experience with instant, accurate answers to all your D&D queries.
 
 ![alt text](https://github.com/MauGaP/letsTalkDND/blob/main/librarian.png?raw=true)
 
